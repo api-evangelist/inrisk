@@ -1,8 +1,15 @@
 aid: inrisk
 name: InRisk
-description: 'InRisk is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'InRisk Labs is a climate insurtech company building parametric insurance
+  products for climate and disaster risk financing. Its platform pairs an AI-driven
+  pricing engine, real-time geospatial and weather monitoring, and blockchain smart
+  contracts to deliver rapid, data-triggered payouts across 15+ parametric products
+  spanning agriculture (crop, livestock, agri-input), renewable energy (solar, wind),
+  logistics, tourism, energy demand, infrastructure protection, and wage and business-interruption
+  cover. Risk models incorporate global climate drivers such as ENSO and IOD and range
+  from India to global coverage. InRisk exposes an "API on-demand" so insurance partners
+  can integrate customized products, dynamic pricing, and real-time analytics into
+  their own infrastructure. Surfaced as a portfolio company of Bessemer Venture Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/inrisk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,31 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://firebasestorage.googleapis.com/v0/b/inrisk-labs.firebasestorage.app/o/assets%2Finrisk-logo.svg?alt=media
 tags:
 - Company
 - Fintech
+- Insurance
+- Insurtech
+- Parametric Insurance
+- Climate Risk
+- Agriculture
+- Renewable Energy
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://inrisk.insure/
+  url: https://inrisklabs.com/
+- type: Blog
+  url: https://inrisklabs.com/blogs
+- type: LLMsTxt
+  url: llms/inrisk-llms.txt
+- type: DomainSecurity
+  url: security/inrisk-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
